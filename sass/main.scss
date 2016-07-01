@@ -1,0 +1,106 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:700|Bangers';
+@import "variables";
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background: #2C3E50;
+    overflow: hidden;
+    color: #ECF0F1;
+    font-family: $Alegreya;
+    font-size: 100%;
+    
+    .title{
+        text-align: center;
+        font-size: 2em;
+    }
+}
+
+.container{
+    max-width: 300px;
+    width: 100%;
+    padding: $width / 50;
+    margin: auto;
+    background-color: rgba(0,0,0,0.5);
+    border: $gray-border;
+    
+    button{
+        padding: 5px;
+    }
+}
+
+.work{
+    float: left;
+    text-align: center;
+    
+    p{
+        margin: 0;
+    }
+    
+    span{
+        display: inline;
+        font-size: 2em;
+    }
+    button{
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+.break{
+    float: right;
+    text-align: center;
+    
+    p{
+        margin: 0;
+    }
+    
+    span{
+        display: inline;
+        font-size: 2em;
+    }
+    button{
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+.timerCountdown{
+    margin-top: $width + 10;
+    text-align: center;
+    .timer{
+        font-size: 5em;
+    }
+}
+
+.progress{
+    canvas{
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+
+#buttons{
+    max-width: 100%;
+    
+    h2{
+        font-size: 2em;
+    }
+    
+    button{
+        width: 100%;
+        display: block;
+        background: none;
+        background-color: $button-color;
+        border: $gray-border;
+        
+        &:hover{
+            background-color: #E67E22;
+        }
+    }
+}

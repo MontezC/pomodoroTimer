@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>pomodoroTimer.js</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="title"><h1>POMODORO TiMER</h1></div>
+        <div class="container">
+            <span class="work" id="work">
+                <p>SESSION</p>
+                <button class="dec"><h2><i class="fa fa-minus" aria-hidden="true"></i></h2></button>
+                <span class="workSet" id="workSet">25</span>
+                <button class="inc"><h2><i class="fa fa-plus" aria-hidden="true"></i></h2></button>
+            </span>
+            <span class="break" id="break">
+                <p>BREAK</p>
+                <span><button class="dec"><h2><i class="fa fa-minus" aria-hidden="true"></i></h2></button></span>
+                <span class="breakSet" id="breakSet">5</span>
+                <span><button class="inc"><h2><i class="fa fa-plus" aria-hidden="true"></i></h2></button></span>
+            </span>
+            <div class="timerCountdown">
+                <span class="timer" id="workTimer"></span>
+                <span class="timer" id="breakTimer"></span>
+            </div>
+            <div id="progress">
+                <div class="progress" id="workProg"></div>
+                <div class="progress" id="breakProg"></div>
+            </div>
+            <div id="buttons">
+                <button id="startTimer"><h2>START</h2></button>
+                <button id="pauseTimer"><h2>PAUSE</h2></button>
+                <button id="resumeTimer"><h2>RESUME</h2></button>
+            </div>
+        </div>
+        
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+        <script type="text/javascript" src="js/pomodoroTimer.js"></script>
+        <script type="text/javascript" src="js/jquery.timer.js"></script>
+        <script type="text/javascript" src="js/circle-progress.js"></script>
+        <script type="text/javascript" src="js/progressbar.js"></script>
+    </body>
+</html>

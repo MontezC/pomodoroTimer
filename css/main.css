@@ -1,0 +1,77 @@
+@import "https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:700|Bangers";
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #2C3E50;
+  overflow: hidden;
+  color: #ECF0F1;
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-size: 100%; }
+  html .title,
+  body .title {
+    text-align: center;
+    font-size: 2em; }
+
+.container {
+  max-width: 300px;
+  width: 100%;
+  padding: 0.4%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 4px solid rgba(99, 99, 99, 0.2); }
+  .container button {
+    padding: 5px; }
+
+.work {
+  float: left;
+  text-align: center; }
+  .work p {
+    margin: 0; }
+  .work span {
+    display: inline;
+    font-size: 2em; }
+  .work button {
+    background: none;
+    border: none;
+    cursor: pointer; }
+
+.break {
+  float: right;
+  text-align: center; }
+  .break p {
+    margin: 0; }
+  .break span {
+    display: inline;
+    font-size: 2em; }
+  .break button {
+    background: none;
+    border: none;
+    cursor: pointer; }
+
+.timerCountdown {
+  margin-top: 30%;
+  text-align: center; }
+  .timerCountdown .timer {
+    font-size: 5em; }
+
+.progress canvas {
+  max-width: 100%;
+  max-height: 100%; }
+
+#buttons {
+  max-width: 100%; }
+  #buttons h2 {
+    font-size: 2em; }
+  #buttons button {
+    width: 100%;
+    display: block;
+    background: none;
+    background-color: #E74C3C;
+    border: 4px solid rgba(99, 99, 99, 0.2); }
+    #buttons button:hover {
+      background-color: #E67E22; }
+
+/*# sourceMappingURL=main.css.map */
